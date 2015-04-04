@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^ajax([^.]+)?$ index.php?id=ajax$1
+RewriteRule ^([^.]+)?$ index.php$1
+RewriteRule ^([^.]+)?$ index.php?id=$1

@@ -1,0 +1,1 @@
+<div class="content_query">[content_selector]</div>

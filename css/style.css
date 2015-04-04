@@ -1,0 +1,103 @@
+    body{
+        margin: 0px;
+        font-family: verdana;
+        font-size: 11px;
+    }
+    table td{
+        padding: 5px;
+    }
+    table tr{
+        font-size: 11px;
+    }
+    table tr:nth-child(odd){
+        background: #efefef;
+    }
+    table tr:hover{
+        background: #000;
+        color: #fff;
+    }
+    label{
+        width: 100px;
+        float: left;
+    }
+    #overlay{
+        background: rgba(0,0,0,.5);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        display: none;
+        z-index: 1000;
+    }
+    #overlay .holder{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1000;
+    }
+    #overlay .form_holder{
+        width: 1000px;
+        height: 700px;
+        position: absolute;
+        top: -350px;
+        left: -500px;
+        background: #fff;
+        padding: 10px;
+    }
+    #navigation{
+        background: #000;
+        color: #fff;
+        border-bottom: 5px solid #efefef;
+        font-size: 11px;
+        font-family: verdana;
+    }
+    #navigation a{
+        text-decoration: none;
+        color: #fff;
+        padding: 10px;
+    }
+    #navigation ul li{
+        list-style: none;
+        display: block;
+        float: left;
+        padding: 10px;
+        margin: 0px;
+    }
+    #navigation ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    th{
+    	background: #545454;
+    	color: #fff;
+    	font-size: 11px;
+    	padding: 10px;
+    }
+    th a{
+    	color: #fff;
+    	text-decoration: none;
+    }
+    .action a{
+        background: #FFA500;
+        padding: 5px;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 5px;
+        margin: 0px 2px;
+    }
+    .clear{
+        clear: both;
+    }
+    #pagination{
+        background: #000;
+        padding: 10px;
+        height: 15px;
+    }
+    #pagination a{
+        background: #efefef;
+        padding: 5px;
+        color: #000;
+        margin: 0px 5px;
+        text-decoration: none;
+    }
